@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table,
+    th,
+    td {
+        border: 2px solid black;
+        border-collapse: collapse;
+    }
+</style>
+
+<body>
+    <form>
+        <table style=" width: 25%;">
+            <tr>
+                <td>İsim: </td>
+                <td><input type="text" id="name" name="name" /></td>
+            </tr>
+            <tr>
+                <td>Soyismi:</td>
+                <td><input type="text" id="Surname" name="Surname" /></td>
+            </tr>
+            <tr>
+                <td>Yaş:</td>
+                <td> <input type="date" id="birthday" name="birthday"></td>
+            </tr>
+            <tr>
+                <td>Resim Ekle:</td>
+                <td><input type="file" id="myfile" name="myfile"></td>
+            </tr>
+            <tr>
+                <td>TC No:</td>
+                <td><input type="text" id="TC" name="TC"></td>
+            </tr>
+            <tr>
+                <td>Cinsiyet:</td>
+                <td> E<input type="radio" name="gender" value="Erkek">
+                    K <input type="radio" name="gender" value="Kadın">
+                </td>
+            </tr>
+            <tr>
+                <td>Yabancı Diller:</td>
+                <td>İngilizce <input type="checkbox" name="ing" id="ing">
+                    Fransızca <input type="checkbox" name="fra" id="fra">
+                    Almanca <input type="checkbox" name="alm" id="alm"></td>
+            </tr>
+            <tr>
+                <td>Görüş:</td>
+                <td><textarea name="message" id="message" cols="30" rows="12   "></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button type="submit">Gönder</button><button type="reset">Temizle</button></td>
+            </tr>
+        </table>
+    </form>
+
+    <br><br>
+    <form>
+
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name" /><br><br>
+        <label for="Surname">Surname</label>
+        <input type="text" id="Surname" name="Surname" /><br><br>
+
+        <label for="password">password</label>
+        <input type="password" id="password" name="password" /><br><br>
+
+        Cinsiyet:
+        Erkek<input type="radio" name="gender" value="Erkek">
+        Kadın <input type="radio" name="gender" value="Kadın">
+        <br>
+        Bildiğiniz Diller:
+        İngilizce <input type="checkbox" name="ing" id="ing">
+        Fransızca <input type="checkbox" name="fra" id="fra">
+        Almanca <input type="checkbox" name="alm" id="alm">
+        <br>
+        Yaşadığınız il:
+        <select name="il" id="il">
+            <option value="Ankara">Ankara</option>
+            <option value="İstanbul">İstanbul</option>
+            <option value="İzmir">İzmir</option>
+        </select>
+        <br>
+        <br>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        <br>
+        <br>
+        <button type="submit">Gönder</button>
+        <button type="reset">Temizle</button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner-res {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.bg-yellow {
+    background: #ADFF2F;
+    opacity: 0;
+}
+.h1{
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header {
+    padding: 0 20px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+}
+
+#brand {
+    color: yellow;
+    display: flex;
+    align-items: center;
+}
+
+#brand h1 {
+    color: yellow;
+}
+
+ul {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+ul a {
+    color: white;
+}
+
+ul li {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+
+#hamburger-icon {
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
+}
+
+#hamburger-icon div {
+    width: 35px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+
+.open .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.mobile-menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    height: calc(100vh - 50px);
+    width: 100%;
+}
+
+.mobile-menu li {
+    margin-bottom: 10px;
+}
+
+#giris {
+    background-color: yellow;
+    height: 25px;
+}
+
+body {
+    background: url('img/Headerbgimg.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 0 0;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid grey;
+}
+
+.banner {
+    background-image: url(img/banner.png);
+}
+
+.alan {
+    width: 100%;
+    height: 300px;
+    margin-top: 0px;
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 18vw;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bolum {
+    opacity: 0.9;
+    background-color:#676767;
+    max-width: 1000px;
+    height: auto;
+    color: white;
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.arama {
+    display: flex;
+    justify-content: center;
+}
+
+.yazi {
+    color: white;
+    text-align: center;
+    font-size: 50%;
+    margin:1%;
+}
+
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 39px;
+}
+
+p {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.search {
+    height: 35px;
+    width: 75%;
+    margin-bottom: 5%;
+}
+
+.sari {
+    background-color: yellow;
+    width: 40px;
+    height: 37.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+}
+
+
+.cards {
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    align-items: center;
+}
+
+.card {
+    width: 15%;
+    height: 180px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+
+.language {
+    position: relative;
+    top: 35vw;
+    background-color: #DBDBDB;
+    height: 850px;
+}
+
+.cards .card img {
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+}
+
+.cards .card .ust {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cards .card .yazi {
+
+    color: black;
+    font-size: 1px;
+    margin-top: 4%;
+}
+
+.card2 {
+    position: relative;
+    background: #fff;
+    width: 20%;
+    height: 375px;
+}
+
+.card2 img {
+    margin: 5%;
+    width: 90%;
+}
+
+.cards .card2 h3 {
+    margin-left: 4%;
+    color: grey;
+}
+
+.cards .card2 .yazi {
+    color: grey;
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.cards .card2 .yazi .i {
+    margin-top: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Buttons */
+.btn {
+    margin-top: 1.25rem;
+    padding: 0.5rem 2rem;
+    border-radius: 7px;
+    letter-spacing: 0.5px;
+    margin-left: 9%;
+}
+
+.btn-danger {
+    background: #e80808;
+}
+
+.ust-img{
+    position: relative;
+}
+
+span {
+    background: red;
+    padding: 0.25rem;
+    color: #fff;
+    border-radius: 4px;
+    position: absolute;
+    top: 0.75rem;
+    left: 0.7rem;
+    border-radius: 20px;
+}
+
+.yan{
+    position: absolute;
+    display: none !important;
+}
+
+@media(max-width: 1024px){
+    .cards .card .yazi {
+
+        color: black;
+        font-size: 0.1px;
+        margin-top: 4%;
+    }
+    .card {
+        width: 19%;
+        height: 250px;
+        background-color: white;
+        border-radius: 10px;
+    
+    }
+    .card2 {
+        position: relative;
+        background: #fff;
+        width: 20%;
+        height: 280px;
+    }
+    .language{
+        top: 44vw;
+      }
+   }
+
+   @media(max-width: 1280px){
+    .cards .card .yazi {
+
+        color: black;
+        font-size: 0.1px;
+        margin-top: 4%;
+    }
+    .card {
+        width: 19%;
+        height: 250px;
+        background-color: white;
+        border-radius: 10px;
+    
+    }
+    .card2 {
+        position: relative;
+        background: #fff;
+        width: 20%;
+        height: 320px;
+    }
+    .language{
+        top: 44vw;
+      }
+    
+
+   }

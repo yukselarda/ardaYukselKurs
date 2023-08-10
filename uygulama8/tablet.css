@@ -1,0 +1,132 @@
+header nav {
+    display: none;
+  }
+
+  #hamburger-icon {
+    display: block;
+  }
+  
+  header{
+    justify-content: space-between !important;
+    flex-direction: row-reverse;
+  }
+  #brand{
+      justify-content: space-evenly;
+      max-width: 1000px;
+      width: 100%
+  }
+  h1{
+    font-size: 35px;
+    margin-top: 7px;
+}
+.bolum{
+    width: 70%;
+}
+
+.language{
+    top: 53vw;
+  }
+
+  .cards {
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    align-items: center;
+}
+
+.card {
+    width: 19%;
+    height: 250px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.cards .card img {
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+}
+
+.cards .card .ust {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cards .card .yazi {
+
+    color: black;
+    font-size: 0.1px;
+    margin-top: 4%;
+}
+
+.card2 {
+    position: relative;
+    background: #fff;
+    width: 20%;
+    height: 280px;
+}
+
+.card2 img {
+    margin: 5%;
+    width: 90%;
+}
+
+.cards .card2 h3 {
+    margin-left: 4%;
+    color: grey;
+}
+
+.cards .card2 .yazi {
+    color: grey;
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.cards .card2 .yazi .i {
+    margin-top: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Buttons */
+.btn {
+    margin-top: 1.25rem;
+    padding: 0.5rem 2rem;
+    border-radius: 7px;
+    letter-spacing: 0.5px;
+    margin-left: 9%;
+}
+
+.btn-danger {
+    background: #e80808;
+}
+
+.ust-img{
+    position: relative;
+}
+
+span {
+    background: red;
+    padding: 0.25rem;
+    color: #fff;
+    border-radius: 4px;
+    position: absolute;
+    top: 0.75rem;
+    left: 0.7rem;
+    border-radius: 20px;
+}
+
+.yan{
+    position: absolute;
+    display: none !important;
+}
+

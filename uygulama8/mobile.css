@@ -1,0 +1,80 @@
+h1{
+    font-size: 25px !important;
+    margin-top: 15px !important;
+}
+
+header nav {
+    display: none !important;
+  }
+
+  #hamburger-icon {
+    display: block !important;
+  }
+  
+  header{
+    justify-content: space-between !important;
+    flex-direction: row-reverse !important;
+  }
+  #brand{
+      justify-content: space-evenly !important;
+      max-width: 480px !important;
+      width: 100% !important;
+  }
+
+  .res-card{
+    display: none !important;
+    width: 50% !important;
+}
+
+  .language{
+    top: 75vw !important;
+  }
+
+  .card{
+    width: 50% !important;
+    height: 280px !important;
+  }
+
+  .sli{
+    margin-top: 35px !important;
+    display: flex !important;  
+    justify-content: center !important;
+    align-items: center !important;        
+  }
+
+  .sli-red{
+    margin: 4px !important;
+    width: 25px !important;
+    height: 25px !important;
+    border-radius: 100% !important;
+    background: red !important;
+  }
+
+  .sli-grey{
+    width: 25px !important;
+    height: 25px !important;
+    border-radius: 100% !important; 
+    background: grey !important;
+  }
+
+  .cards .card .ust{
+    align-items: center !important;
+    flex-direction: column !important;
+    height: 120px !important;
+  }
+
+  /* Card2 */
+  .card2{
+    width: 50% !important;
+    height: 300px !important;
+    position: relative !important;
+  }
+
+  .btn{
+    margin-left: 25% !important;
+  }
+
+  .yan{
+    display:inline !important;
+    position: absolute !important;
+  }

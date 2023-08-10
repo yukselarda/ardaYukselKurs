@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{margin:0;}
+    body{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    input.normal {
+  border: 2px solid blue;
+  padding: 5px;
+    }
+  input.round3 {
+  border: 2px solid blue;
+  border-radius: 12px;
+  padding: 5px;
+}
+</style>
+<body>
+    <br><br>
+    <form action="/action_page.php">
+        <input  style="width:32% ;height: 50px;" class="normal round3" type="text" id="fname" name="firstname" placeholder="AD">
+        <input  style="width:32%; height: 50px; ;" class="normal round3" type="text" id="fname" name="firstname" placeholder="Soyad">
+        <input style="width:32%;  height: 50px; ;" class="normal round3" type="number" id="fname" name="firstname" placeholder="Numara">
+        <br><br>
+        <textarea class="normal round3" id="subject" name="subject" placeholder="Mesajınız" style="width: 99%;height: 200px;border: 2px solid blue; border-radius: 12px;"></textarea>
+        <br><br>
+       <p><input type="checkbox" name="onay" id="onay"><a href="#">kvkk metni</a> <a href="#">Kullanıcı Sözleşmesi'ni</a> okudum kabul ediyorum</p>
+       <br>
+       <div style="text-align: start;">
+        <input style="width: 100px;height: 50px;color: white; border-radius: 12px;background-color:rgb(8, 8, 158);" type="button" value="Gönder"> 
+       </div>
+    </form>
+</body>
+</html>

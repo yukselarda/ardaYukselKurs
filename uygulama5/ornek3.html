@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .responsive {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+   @media(max-width: 760px){
+    .alan {
+        top: 10vw !important;
+        height: 350px;
+    }
+   }
+
+   @media(max-width: 500px){
+    .alan {
+        top: 5vw !important;
+        height: 300px;
+    }
+   }
+   @media(max-width: 400px){
+    .alan {
+        top: 1vw !important;
+        height: 250px;
+    }
+   }
+    .alan {
+        width: 100%;
+        height: 300px;
+        margin-top: 0px;
+        color: white;
+        display: flex;
+        position: absolute;
+        top:18vw;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .bolum {
+        background-color: rgba(6, 45, 150, .8);
+        max-width: 700px;
+        height: auto;
+        color: white;
+        display: flex;
+        position:absolute;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .yazi {
+        color: white;
+        text-align: center;
+        font-size: 50%;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .button {
+        border: none;
+        color: white;
+        padding: 0.2vw 3vw;
+        text-align: center;
+        text-decoration: none;
+        font-size:20px;
+        margin: 1.5vw 14vw;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+
+    .button2 {
+        background-color: rgba(70, 215, 252, .2);
+        color: white;
+        border: 1px solid rgba(70, 215, 252, .2);
+    }
+
+    .button2:hover {
+        background-color: #01227b;
+        color: white;
+    }
+</style>
+
+<body>
+    <img src="img/banner.png" class="responsive" alt="">
+    <div class="alan responsive">
+        <div class="bolum">
+            <div class="yazi">
+                <h1>Olağan Genel Kurul</h1>
+                <h1> Çağrısı</h1>
+                <br>
+                <p>Nevşehirli Bürokratlar ve İş İnsanları Derneği (NEVBİAD) Olağan Genel Kurul Toplantısı 29 Ekim Cumartesi
+                    günü yapılacaktır.</p>
+                <button class="button button2">Detaylı Bilgi Al</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
